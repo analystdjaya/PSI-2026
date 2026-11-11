@@ -1,0 +1,260 @@
+<!doctype html><html lang="en" data-dashboard-division="All"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Principal Satisfaction Survey | Secure Access</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eaf5fc;color:#071ebd;font:14px Arial,sans-serif}.wrap{max-width:1680px;margin:auto;position:relative}.header{background:linear-gradient(110deg,#2077c1,#2fa9fb);padding:11px 26px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:white}.header h1{margin:0;font-size:32px;line-height:1.03}.header h3{margin:2px 0 0;font-size:20px}.filters{display:flex;align-items:center;gap:10px}.field{background:#f6faff;border-radius:6px;padding:5px 9px;color:blue;min-width:130px;font-weight:bold}.field label{display:block;font-size:12px}.field select{width:100%;border:0;border-top:1px solid #d6eaf7;background:transparent;color:#031bb7;padding:3px 0;font-weight:bold}.download{background:#0846ab;color:white;border:0;border-radius:6px;padding:16px;cursor:pointer}.diamond{background:#e52538;color:#fff;font-weight:900;border-radius:5px;text-align:center;padding:8px}.body{padding:7px 18px 14px}.panel{background:#ffffffd9;border-radius:8px;padding:10px 12px;margin-bottom:9px;position:relative}.sectionhead{display:flex;align-items:baseline;justify-content:space-between;gap:9px;flex-wrap:wrap}.sectionhead h2{font-size:23px;margin:0 0 7px;color:#001bd4}.hint{font-size:12px;color:#5775ea;margin-left:12px;font-weight:normal}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}.kpi{border-radius:7px;background:#eaf6ff;min-height:76px;display:flex;align-items:center;justify-content:center;gap:12px;padding:10px}.sym{font-size:31px;color:#0784ef}.kpi label{display:block;font-size:13px}.num{font-size:31px;font-weight:bold;color:#0716a9;margin-top:5px}.bad{color:#f32638}.good{color:#119758}.deptgrid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}.dept{border:1px solid #cfe4f5;border-radius:8px;text-align:center;padding:13px 8px 6px;min-height:130px}.dept h3{font-size:14px;min-height:30px;margin:0}.dept .num{font-size:28px}.state{border-radius:5px;padding:8px;margin-top:7px;background:#eaf5ec;color:#159b57;font-weight:bold}.state.bad{background:#fff0f0;color:#f42642}.state.warn{background:#fff5dd;color:#e49b00}.legend{display:flex;gap:16px;font-size:12px}.legend span{white-space:nowrap}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:9px}.feedback{height:328px;overflow:hidden}.feedback .items{height:275px;overflow:auto}.feedback h2{font-size:21px}.feedback .line{padding:10px 11px;border-bottom:1px solid #dfedf7;color:#6276ef;font-style:italic;line-height:1.35}.feedback .line:nth-child(even){background:#eef8ff}.feedback small{display:block;margin-top:5px;font-style:normal;color:#1c42ac}.bottom{display:grid;grid-template-columns:1fr 1fr 1.8fr;gap:9px}.bottom .panel{min-height:196px;margin:0}.bars .barrow{display:grid;grid-template-columns:40% 1fr 35px;gap:7px;align-items:center;margin:7px 0;font-size:12px}.track{background:#e4f5ff;height:18px}.fill{height:100%;background:linear-gradient(90deg,#9fdfc1,#009963)}.fill.red{background:linear-gradient(90deg,#ffc9c9,#fb4248)}.insight{padding:7px 9px;background:#fff3f0;border-radius:5px;margin:5px 0;color:#052cba}.insight:nth-child(even){background:#fff7e5}.insight b{display:block}.foot{padding:9px 20px;text-align:right;font-size:11px;color:#4162a9}.watermarks{position:absolute;inset:75px 0 25px;pointer-events:none;overflow:hidden;z-index:2}.watermarks i{position:absolute;font-size:32px;letter-spacing:3px;font-weight:700;font-style:normal;color:rgba(95,110,123,.065);transform:rotate(-30deg);white-space:nowrap}.note{font-size:12px;color:#47608f}.empty{padding:16px;color:#667}.tooltip{cursor:help;border-bottom:1px dotted #b2b6c4}@media(max-width:1100px){.header{flex-direction:column;align-items:flex-start}.kpis,.deptgrid{grid-template-columns:repeat(3,1fr)}.bottom{grid-template-columns:1fr 1fr}.bottom .panel:last-child{grid-column:span 2}}@media(max-width:640px){.kpis,.deptgrid,.twocol,.bottom{grid-template-columns:1fr 1fr}.feedback{grid-column:span 2}.bottom .panel:last-child{grid-column:span 2}.filters{flex-wrap:wrap}.header h1{font-size:25px}}
+
+.diamond{background:none;padding:0;display:flex;align-items:center;justify-content:center}.diamond img{height:55px;width:auto;max-width:65px;object-fit:contain}.equipment3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.equipment3 .feedback h2{font-size:18px}.feedback .line{overflow-wrap:anywhere}.watermarks i{color:rgba(74,89,103,.085);font-size:31px}.foot{padding-bottom:13px}.notice{padding:5px 12px;color:#5471a0;font-size:11px}select{cursor:pointer}@media(max-width:900px){.equipment3{grid-template-columns:1fr}.equipment3 .feedback{height:270px}}
+.principal-field{min-width:178px;position:relative}.multi{position:relative;font-size:12px}.multi summary{cursor:pointer;list-style:none;border-top:1px solid #d6eaf7;padding:5px 0 2px;white-space:nowrap}.multi summary:after{content:'⌄';float:right}.multi-panel{position:absolute;top:calc(100% + 5px);right:0;width:295px;max-width:85vw;background:white;color:#122c9f;border:1px solid #c5e0f4;box-shadow:0 7px 20px #174f8c33;border-radius:7px;z-index:10;padding:8px}.multi-actions{display:flex;gap:7px;margin-bottom:7px}.multi-actions button{border:1px solid #bbd8f0;background:#eaf6ff;color:#0343a3;border-radius:4px;cursor:pointer;padding:5px 10px}.multi-options{max-height:240px;overflow:auto}.multi-option{display:flex;gap:8px;align-items:flex-start;padding:6px 3px;font-size:12px;cursor:pointer;font-weight:normal}.multi-option:hover{background:#eef7ff}.recommendation{display:flex;gap:11px;align-items:center;min-height:52px}.recommendation b{font-size:13px;display:block;margin-bottom:2px}.recommendation .label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:#5c6fa8}.recommendation .body{font-size:12px;line-height:1.35;color:#10308f}.recommendation .body em{font-style:normal;font-weight:700;color:#001bd4}.recommendation span:not(.rec-index){font-size:12px}.rec-index{flex:none;display:grid;place-items:center;background:#fa4d50;border-radius:50%;width:31px;height:31px;color:white;font-size:18px;font-weight:800}.recommendation:nth-child(2) .rec-index{background:#f2a900}.recommendation:nth-child(3) .rec-index{background:#29a238}@media(max-width:1100px){.deptgrid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}@media(max-width:640px){.deptgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* Five KPI tiles after removing the standalone target-score KPI */
+#kpis{grid-template-columns:repeat(5,minmax(0,1fr))}
+/* Keep the Equipment feedback grid visually balanced at two panels */
+.equipment3{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:900px){#kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.equipment3{grid-template-columns:1fr}}
+.recommendation{align-items:center;min-height:56px}.recommendation b{font-size:14px;margin-bottom:3px}.rec-description{font-size:12px;line-height:1.35;color:#163c9f}.rec-mentions{color:#546b9e;font-size:11px}#insights .insight{padding:10px 12px}
+/* V11: consistent header and KPI icon typography; no layout changes */
+.download{display:inline-flex;align-items:center;justify-content:center;gap:9px;white-space:nowrap;font-size:14px}
+.download-icon{width:23px;height:23px;flex:0 0 23px}
+.kpi{gap:11px;min-width:0}
+.kpi-content{min-width:0}
+.kpi .sym{font-size:36px;line-height:1;display:inline-flex;align-items:center;justify-content:center;flex:0 0 42px;width:42px}
+.kpi-status .num{font-size:clamp(16px,1.55vw,25px);white-space:nowrap;letter-spacing:-.3px;line-height:1.18}
+.kpi-status .kpi-content{min-width:0}
+@media(max-width:900px){.kpi-status .num{font-size:clamp(18px,3vw,25px)}}
+@media(max-width:480px){.kpi{gap:7px;padding:8px}.kpi .sym{font-size:28px;flex-basis:32px;width:32px}.kpi-status .num{font-size:17px}}
+
+/* V12: page navigation + apply-only multi-select. */
+.division-nav{background:#e5f3fd;padding:8px 18px 6px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid #c9e3f4}
+.division-nav a{text-decoration:none;color:#0756b8;background:#fff;border:1px solid #afd5ef;border-radius:6px;padding:8px 17px;font-weight:700;font-size:13px}
+.division-nav a.active,.division-nav a[aria-current="page"]{background:#0846ab;color:white;border-color:#0846ab}
+.division-nav a:hover{box-shadow:0 2px 6px #02468a22}
+.multi-actions{align-items:center}
+.multi-ok{background:#0846ab!important;color:white!important;border-color:#0846ab!important;font-weight:bold;margin-left:auto;min-width:55px}
+#division:disabled{opacity:1;color:#031bb7;cursor:default}
+@media(max-width:640px){.division-nav a{padding:7px 11px}.multi-actions button{padding:5px 8px}}
+
+/* V13: single-dashboard multi-select division + role preview */
+.division-field{min-width:164px;position:relative}
+.division-field .multi-panel{left:0;right:auto;width:240px}
+.division-field .multi summary{border-top:1px solid #d6eaf7}
+.locked-division{padding:5px 0 2px;border-top:1px solid #d6eaf7;font-size:13px;color:#031bb7}
+.locked-division:before{content:'🔒 ';font-size:11px}
+.demo-role{padding:10px 20px;background:#fff4db;color:#805700;font-size:12px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.demo-role select{border:1px solid #e2bd77;border-radius:4px;padding:4px;background:white;color:#805700}
+@media(max-width:640px){.division-field .multi-panel{width:min(270px,90vw)}}
+</style><style>
+.access-screen{min-height:100vh;display:grid;place-items:center;background:linear-gradient(115deg,#135fae,#2da6f1);padding:24px;color:#06379a}
+.access-card{background:#f9fcff;border-radius:16px;box-shadow:0 20px 55px #00285b44;width:min(100%,590px);padding:34px}
+.access-card h1{font-size:28px;margin:12px 0}.access-card p{font-size:14px;line-height:1.5;color:#47618f}
+.login-logo{height:72px;width:72px;object-fit:contain}.access-card label{display:block;font-weight:bold;margin:20px 0 8px}
+.access-row{display:flex;gap:8px;flex-wrap:wrap}.access-row input{flex:1;min-width:210px;border:1px solid #aac7eb;padding:13px;border-radius:8px;font-size:15px}
+.access-row button{background:#0846ab;border:0;border-radius:8px;color:white;font-weight:bold;padding:13px 18px;cursor:pointer}
+.access-row button:disabled{opacity:.65;cursor:wait}.access-error{color:#c32b45;font-weight:bold;min-height:18px;margin-top:10px}
+.access-help{margin-bottom:4px}.access-screen[hidden]{display:none!important}#protectedDashboard[hidden]{display:none!important}
+@media(max-width:650px){.access-card{padding:24px}.access-row button{width:100%}}
+</style></head><body><section id="accessScreen" class="access-screen"><div class="access-card">
+<img src="assets/diamond.png" class="login-logo" alt="Diamond logo">
+<h1>Principal Satisfaction Survey</h1>
+
+<form id="accessForm" autocomplete="off">
+<label for="accessCode">Access code</label>
+<div class="access-row"><input id="accessCode" type="password" required autocomplete="off" spellcheck="false" placeholder="Access code"><button id="accessButton" type="submit">Unlock dashboard</button></div>
+
+<div id="accessError" class="access-error" role="alert" aria-live="polite"></div>
+</form>
+</div></section><div class="wrap" id="protectedDashboard" hidden><header class="header"><div><h1>Principal Satisfaction Survey</h1></div><div class="filters"><div class="field division-field"><label>Division</label><div id="divisionLocked" class="locked-division" hidden></div><details id="divisionDropdown" class="multi"><summary id="divisionSummary">All divisions</summary><div class="multi-panel"><div class="multi-actions"><button type="button" id="divisionSelectAll">Select all</button><button type="button" id="divisionClear">Clear</button><button type="button" class="multi-ok" id="divisionApply">OK</button></div><div id="divisionOptions" class="multi-options"></div></div></details></div><select id="division" hidden aria-hidden="true"><option>All</option><option>Trading</option><option>Fine Food</option><option>Equipment</option></select><div class="field principal-field"><label>Principal</label><details id="principalDropdown" class="multi"><summary id="principalSummary" title="Select principals and click OK to apply">All principals</summary><div class="multi-panel"><div class="multi-actions"><button type="button" id="principalSelectAll">Select all</button><button type="button" id="principalClear">Clear</button><button type="button" class="multi-ok" id="principalApply">OK</button></div><div id="principalOptions" class="multi-options"></div></div></details></div><div class="field"><label>Year</label><select id="year"><option>2026</option><option>2025</option></select></div><button class="download" id="downloadCSVButton"><svg class="download-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v13m-5-5 5 5 5-5M4 19h16"/></svg><span>Download Raw Data (CSV)</span></button><div class="diamond"><img src="assets/diamond.png" alt="Diamond logo"></div></div></header><main class="body"><section class="panel"><div class="sectionhead"><h2>Key Results <span class="hint">Overall satisfaction score and KPI achievement</span></h2></div><div class="kpis" id="kpis"></div></section><section class="panel"><div class="sectionhead"><h2>Department Performance <span class="hint">Score by department versus target 4.5</span></h2><div class="legend"><span style="color:red">● Below Target &lt; 4.40</span><span style="color:orange">● Threshold 4.40–4.49</span><span style="color:green">● Achieve ≥ 4.50</span></div></div><div id="depts" class="deptgrid"></div></section><div id="commentPanels"></div><div class="bottom"><section class="panel"><div class="sectionhead"><h2>Reasons for Satisfaction</h2></div><div class="bars" id="satisfied"></div></section><section class="panel"><div class="sectionhead"><h2>Areas for Improvement</h2></div><div class="bars" id="dissatisfied"></div></section><section class="panel"><div class="sectionhead"><h2>Potential Areas of Focus <span class="hint">Preliminary improvement themes for consideration</span></h2></div><div id="insights"></div></section></div><div class="foot">Last updated: 2026-11-11 &nbsp; · &nbsp; Confidential – For Internal Use Only</div></main><div class="watermarks" aria-hidden="true" id="watermarks"></div></div><script>
+function startDashboard(DATA, role){
+const target=DATA.target,fields=['Marketing','Sales','Supply & Demand','Import','Finance & Accounting','Warehouse & Logistics'];
+const $=id=>document.getElementById(id);const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null;const fmt=a=>a==null?'N/A':a.toFixed(2);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function plain(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+function canonicalPrincipal(division,year,principal){let a=DATA.responses.find(x=>x.year===year&&x.division===division&&norm(x.principal)===norm(principal));return a?a.principal:principal}
+function matchedQualitative(grouped){const selected=new Set(grouped.map(x=>x.division+'|'+x.year+'|'+norm(x.principal)));const sourceToPrincipal=new Map();for(const x of grouped)for(const id of x.sourceIds)sourceToPrincipal.set(x.division+'|'+x.year+'|'+String(id).toLowerCase(),x.principal);
+return DATA.reviewedQualitative.filter(q=>{const canonical=canonicalPrincipal(q.division,q.year,q.principal);let key=q.division+'|'+q.year+'|'+norm(canonical);let source=sourceToPrincipal.get(q.division+'|'+q.year+'|'+q.sourceId.toLowerCase());return selected.has(key)||(source&&selected.has(q.division+'|'+q.year+'|'+norm(source)))}).map(q=>{const source=sourceToPrincipal.get(q.division+'|'+q.year+'|'+q.sourceId.toLowerCase());let principal=source||canonicalPrincipal(q.division,q.year,q.principal);return {...q,principalKey:q.division+'|'+q.year+'|'+norm(principal),principal}})}
+function norm(s){return String(s||'').toUpperCase().replace(/&/g,'AND').replace(/[^A-Z0-9]+/g,' ').replace(/\b(PT|PTE|LTD|LIMITED|INC|CO|COMPANY|INDONESIA|THE|TBK|CV)\b/g,'').replace(/\s+/g,' ').trim()}
+function tag(n){return n==null?['Not Assessed','warn']:n<4.4?['Below Target','bad']:n<4.5?['Threshold','warn']:['Achieve','good']}
+const DIVISIONS=['Trading','Fine Food','Equipment'];
+const previewRole=role;
+const IS_HQ=previewRole==='HQ';
+let selectedDivisions=new Set(IS_HQ?DIVISIONS:[previewRole]);
+let draftDivisions=new Set(selectedDivisions);
+let selectedPrincipals=new Set();
+let draftPrincipals=new Set();
+const activeDivision=x=>selectedDivisions.has(x.division);
+const scoped=arr=>arr.filter(x=>+x.year===+$('year').value&&activeDivision(x));
+function updateDivisionSummary(){
+ const names=[...selectedDivisions];
+ $('divisionSummary').textContent=names.length===3?'All divisions':names.length===1?names[0]:`${names.length} selected`;
+ const sole=names.length===1?names[0]:'All'; $('division').value=sole;
+}
+function showDivisionOptions(){
+ const el=$('divisionOptions');
+ el.innerHTML=DIVISIONS.map((d,i)=>`<label class="multi-option"><input type="checkbox" data-idx="${i}" ${draftDivisions.has(d)?'checked':''}> <span>${d}</span></label>`).join('');
+ el.querySelectorAll('input').forEach(cb=>cb.addEventListener('change',()=>{const d=DIVISIONS[+cb.dataset.idx];cb.checked?draftDivisions.add(d):draftDivisions.delete(d)}));
+}
+function setDivisionSelection(all){if(!IS_HQ)return;draftDivisions=new Set(all?DIVISIONS:[]);showDivisionOptions()}
+function applyDivisionSelection(){
+ if(!IS_HQ)return;
+ if(draftDivisions.size===0){$('divisionSummary').textContent='Choose at least one';return}
+ selectedDivisions=new Set(draftDivisions);
+ updateDivisionSummary();$('divisionDropdown').open=false;
+ if($('principalDropdown').open)$('principalDropdown').open=false;
+ // Persist selected principals only when still present in the newly selected divisions.
+ choices();render();
+}
+$('divisionDropdown').addEventListener('toggle',()=>{
+ if($('divisionDropdown').open){draftDivisions=new Set(selectedDivisions);showDivisionOptions()}
+ else draftDivisions=new Set(selectedDivisions);
+});
+function choices(){
+ const names=[...new Set([...scoped(DATA.tracker),...scoped(DATA.responses)].map(x=>x.principal))].sort((a,b)=>a.localeCompare(b));
+ selectedPrincipals=new Set([...selectedPrincipals].filter(n=>names.includes(n)));
+ window.availablePrincipals=names;
+ draftPrincipals=new Set(selectedPrincipals);
+ showPrincipalOptions();updatePrincipalSummary();
+}
+function showPrincipalOptions(){
+ const names=window.availablePrincipals||[];
+ const options=$('principalOptions');
+ options.innerHTML=names.map((n,i)=>`<label class="multi-option"><input type="checkbox" data-idx="${i}" ${draftPrincipals.has(n)?'checked':''}> <span>${esc(n)}</span></label>`).join('');
+ options.querySelectorAll('input').forEach(cb=>cb.addEventListener('change',()=>{
+  const n=names[+cb.dataset.idx];if(cb.checked)draftPrincipals.add(n);else draftPrincipals.delete(n);
+  // The data and visible filter summary do not change until Apply (OK).
+ }));
+}
+function updatePrincipalSummary(){$('principalSummary').textContent=selectedPrincipals.size?`${selectedPrincipals.size} selected`:'All principals'}
+function setPrincipalSelection(all){draftPrincipals=all?new Set(window.availablePrincipals||[]):new Set();showPrincipalOptions()}
+function applyPrincipalSelection(){
+ selectedPrincipals=new Set(draftPrincipals);
+ updatePrincipalSummary();
+ $('principalDropdown').open=false;
+ render();
+}
+$('principalDropdown').addEventListener('toggle',()=>{
+ if($('principalDropdown').open){draftPrincipals=new Set(selectedPrincipals);showPrincipalOptions()}
+ else {draftPrincipals=new Set(selectedPrincipals)}
+});
+document.addEventListener('pointerdown',e=>{
+   for(const id of ['principalDropdown','divisionDropdown']){
+    const menu=$(id);if(menu.open&&!menu.contains(e.target))menu.open=false;
+  }
+});
+function filtered(){let apply=xs=>scoped(xs).filter(x=>!selectedPrincipals.size||selectedPrincipals.has(x.principal));return {r:apply(DATA.responses),t:apply(DATA.tracker)}}
+// First average all answers within each principal, then average PRINCIPALS equally.
+// This prevents principals who submitted twice from being overweighted in dashboard scores.
+function merge(r){const m=new Map();for(const x of r){const key=x.division+'|'+norm(x.principal);if(!m.has(key))m.set(key,{...x,scoreSets:{},overallVals:[],marketingVals:[],feedback:[],count:0,sourceIds:[]});const a=m.get(key);a.count++;a.sourceIds.push(x.id);a.overallVals.push(...(x.overall||[]));if(x.marketingOverall!=null)a.marketingVals.push(x.marketingOverall);for(const [field,vs]of Object.entries(x.ratings||{})){(a.scoreSets[field]??=[]).push(avg(vs))}for(const fb of x.feedback||[])if(!a.feedback.some(f=>f.type===fb.type&&f.text===fb.text))a.feedback.push({...fb,principal:x.principal,date:x.date,division:x.division});if(x.date>a.date)a.date=x.date}
+return [...m.values()].map(a=>({...a,overallScore:avg(a.overallVals),marketingScore:avg(a.marketingVals),deptScore:Object.fromEntries(Object.entries(a.scoreSets).map(([f,v])=>[f,avg(v)]))}))}
+function kpi(n,v,i,col=''){return `<div class="kpi ${n==='Achievement Status'?'kpi-status':''}"><span class="sym">${i}</span><div class="kpi-content"><label>${n}</label><div class="num ${col}">${v}</div></div></div>`}
+function scoreNote(type){return type==='Equipment'?'Equipment has no equivalent overall-distributor question; KPI reflects assessed department averages.':'Explicit overall-distributor question; duplicates averaged per principal.'}
+function feedbackCards(grouped,equip){const definitions=equip?[['What areas of our service would you like PT Sukanda Djaya to improve?','Equipment service improvements'],['Any additional comments or suggestions for PT Sukanda Djaya?','Equipment additional comments']]:[['What should PAM improve to better support your business?','PAM areas to improve'],['What should PT Sukanda Djaya improve to better serve your business?','PT Sukanda Djaya areas to improve']];$('commentPanels').className=equip?'equipment3':'twocol';$('commentPanels').innerHTML=definitions.map(([title,type])=>{let items=grouped.flatMap(x=>x.feedback.filter(f=>f.type===type).map(f=>({...f,principal:x.principal,division:x.division,date:x.date})));return `<section class="panel feedback"><div class="sectionhead"><h2>${esc(title)}</h2><span class="note">${items.length} principals</span></div><div class="items">${items.map(x=>`<div class="line">“${esc(x.text)}”<small>${esc(x.principal)} · ${esc(x.division)} · ${esc(x.date)}</small></div>`).join('')||'<div class="empty">No responses available for this question in the supplied 2025–2026 Equipment raw files.</div>'}</div></section>`}).join('')}
+const topics=[['Relationship Quality',/relation|support|teamwork|partner|cooperat|responsive|communication/i],['Responsiveness',/respond|fast|quick|respons|timely/i],['Product Quality',/quality|product/i],['Delivery Reliability',/deliver|freight|shipment|logistic|order/i],['Commercial Support',/price|market|promotion|discount|commercial/i],['Product Availability',/stock|availab|inventory|supply/i],['Documentation',/document|permit|import/i]];
+const negative=/delay|late|slow|lack|issue|problem|concern|improv|need|should|difficult|lost|stockout|not |cannot|poor|complain|shortage/i;
+const positive=/good|great|excellent|happy|perfect|satisf|support|strong|very helpful|appreciat|effective|reliable/i;
+function render(){const {r,t}=filtered(),g=merge(r),invites=new Map(t.map(x=>[x.division+'|'+norm(x.principal),x])),invited=invites.size,respondents=g.length,rate=invited?100*respondents/invited:null,equip=selectedDivisions.size===1&&selectedDivisions.has('Equipment');let explicit=g.map(x=>x.overallScore).filter(x=>x!=null);let score=avg(explicit);if(equip)score=avg(g.map(x=>avg(Object.values(x.deptScore))).filter(x=>x!=null));let state=tag(score);const matched=g.filter(x=>invites.has(x.division+'|'+norm(x.principal))).length;
+$('kpis').innerHTML=kpi('Total Principals Invited',invited,'♟')+kpi('Total Responses',respondents,'✉')+kpi('Response Rate',rate==null?'N/A':rate.toFixed(1)+'%','◕')+kpi(equip?'Overall Score*':'Overall Score',fmt(score)+' <small>/5.00</small>','★')+kpi('Achievement Status',state[0],'⚠',state[1]);
+$('depts').style.gridTemplateColumns=equip?'repeat(4,minmax(0,1fr))':'';const displayFields=equip?fields.filter(f=>!['Import','Warehouse & Logistics'].includes(f)):fields;$('depts').innerHTML=displayFields.map(f=>{let v=avg(g.map(x=>x.deptScore[f]).filter(x=>x!=null));let s=tag(v);return `<div class="dept"><h3>${esc(f)}</h3><div class="num ${s[1]}">${fmt(v)} <small style="font-size:15px;color:#1683ea">/5.00</small></div><div class="state ${s[1]}">${s[0]}</div></div>`}).join('');feedbackCards(g,equip); const qualitative=matchedQualitative(g), actionableRows=qualitative.filter(q=>q.sentiment||q.feedbackType);
+ // Count each principal once within a category/reason, even for multiple submissions or segments.
+ function distribution(kind){const map=new Map();for(const q of actionableRows){const relevant=kind==='positive'?(q.sentiment==='Positive'||q.feedbackType==='Praise / Recognition'):(q.feedbackType==='Corrective Action'||q.feedbackType==='Improvement Opportunity'||q.sentiment==='Negative');if(!relevant)continue;const category=q.category||'Uncategorized',key=category+'|'+q.principalKey;if(!map.has(key))map.set(key,{category,principalKey:q.principalKey});}const counts=new Map();for(const v of map.values())counts.set(v.category,(counts.get(v.category)||0)+1);return [...counts].map(([name,count])=>({name,count})).sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name)).slice(0,5)}
+ function drawChart(id,kind){const values=distribution(kind),max=Math.max(1,...values.map(x=>x.count));$(id).innerHTML=values.length?values.map(x=>`<div class="barrow"><span title="${esc(x.name)}">${esc(x.name)}</span><div class="track"><div class="fill ${kind==='negative'?'red':''}" style="width:${100*x.count/max}%"></div></div><b>${x.count}</b></div>`).join('')+'<p class="note">Reviewed categories · unique principals mentioning each category.</p>':'<p class="note">No classified feedback for the current selection.</p>'}
+ drawChart('satisfied','positive');drawChart('dissatisfied','negative');
+ const ds=displayFields.map(f=>({f,v:avg(g.map(x=>x.deptScore[f]).filter(x=>x!=null))})).filter(x=>x.v!=null).sort((a,b)=>a.v-b.v);
+ // Aggregate at category level: one principal is counted once per category.
+ const byCategory=new Map();
+ for(const q of actionableRows){
+   if(q.feedbackType!=='Corrective Action'&&q.feedbackType!=='Improvement Opportunity')continue;
+   const category=(q.category||'Service Improvement').trim();
+   if(!byCategory.has(category))byCategory.set(category,{category,principals:new Set(),corrective:new Set(),opportunity:new Set(),reasons:new Map()});
+   const item=byCategory.get(category);
+   item.principals.add(q.principalKey);
+   (q.feedbackType==='Corrective Action'?item.corrective:item.opportunity).add(q.principalKey);
+   const reason=(q.reason||'').trim();
+   if(reason){if(!item.reasons.has(reason))item.reasons.set(reason,new Set());item.reasons.get(reason).add(q.principalKey)}
+ }
+ const priorities=[...byCategory.values()].sort((a,b)=>b.corrective.size-a.corrective.size||b.principals.size-a.principals.size||a.category.localeCompare(b.category));
+ const focusFor=p=>{
+   const cat=p.category.toLowerCase();
+   const topReasons=[...p.reasons.entries()].sort((a,b)=>b[1].size-a[1].size).slice(0,2).map(x=>x[0]);
+   // Broad directions for consideration, not approved commitments or action plans.
+   if(/sales|distribution|sales perfr|brand focus/.test(cat))return 'Consider clearer branch and brand ownership, stronger field execution and sales capability, and more consistent market-visibility and performance reviews.';
+   if(/channel develop/.test(cat))return 'Explore more tailored channel growth plans, distribution reach and branch-level execution, supported by clearer coordination and visibility of results.';
+   if(/communicat|coordinat|information sharing|partnership|governance/.test(cat))return 'Review how principal updates, PIC handovers and cross-team coordination can become more timely, consistent and transparent.';
+   if(/supply|stock|inventor|availab|forecast|allocation|service level/.test(cat))return 'Assess opportunities to improve demand visibility, stock availability, fulfilment reliability and the handling of recurring service exceptions.';
+   if(/deliver|logistic|order fulfil|transport/.test(cat))return 'Explore ways to improve delivery reliability, lead-time visibility and escalation of recurring fulfilment issues.';
+   if(/report|insight|intelligence/.test(cat))return 'Explore more timely business reporting, relevant market and competitor intelligence, and clearer insights to support joint commercial decisions.';
+   if(/trade|budget|commercial|pric/.test(cat))return 'Review opportunities for better trade-spend visibility, commercial alignment, pricing competitiveness and budget communication.';
+   if(/product|portfolio|technical/.test(cat))return 'Consider product-portfolio gaps, technical support and new-product opportunities in response to principal and channel needs.';
+   if(/training|capab|knowledge/.test(cat))return 'Assess sales and product-knowledge capabilities and where targeted field support could improve execution quality.';
+   if(/promotion|marketing/.test(cat))return 'Explore more coordinated promotional planning, in-market activation and broader visibility across relevant customer segments.';
+   if(/payment|finance/.test(cat))return 'Review payment and commercial-process friction, including clarity of terms and ease of coordination.';
+   const context=topReasons.filter(Boolean).join('; ').replace(/[.!]+$/,'');
+   return context?`Explore opportunities related to ${context.charAt(0).toLowerCase()+context.slice(1)}, with further validation of priority and scope.`:'Consider the underlying principal feedback to identify practical opportunities for further review.';
+ };
+ const recs=priorities.slice(0,3).map(p=>({
+   title:p.category.replace(/Perfrormance|Perfromance/g,'Performance'),
+   action:focusFor(p),
+   n:p.principals.size,
+   corrective:p.corrective.size,
+   opportunity:p.opportunity.size
+ }));
+ // With narrow filters, show only evidence-supported themes rather than repeating generic placeholders.
+ const mentionLabel=r=>{if(r.n==null)return '';const count=`${r.n} principal${r.n===1?'':'s'}`;if(r.kind==='positive')return ` — ${count} provided praise.`;return ` — ${count} (${r.corrective} corrective action${r.corrective===1?'':'s'}, ${r.opportunity} improvement opportunit${r.opportunity===1?'y':'ies'}).`};
+ $('insights').innerHTML=recs.length?recs.slice(0,3).map((rec,i)=>`<div class="insight recommendation"><span class="rec-index">${i+1}</span><div><b>${esc(rec.title)}</b><div class="rec-description">${esc(rec.action)}<span class="rec-mentions">${esc(mentionLabel(rec))}</span></div></div></div>`).join(''):'<p class="note">No classified improvement themes in the current selection. Widen the filters to review additional feedback.</p>'; }
+
+function downloadCSV(){const {r}=filtered(),g=merge(r);const heads=['Year','Division','Principal','Merged Forms','Source IDs','Latest Response Date','Overall Score','Marketing Team Overall',...fields,'PAM Comments','PT Sukanda Djaya Improvement','Equipment Service Improvements','Equipment Additional Comments','Reviewed Sentiments','Reviewed Feedback Types','Reviewed Categories','Reviewed Reasons','Reviewed Qualitative Details'];const rows=g.map(x=>[x.year,x.division,x.principal,x.count,x.sourceIds.join(' | '),x.date,x.overallScore??'',x.marketingScore??'',...fields.map(f=>x.deptScore[f]??''),...['PAM areas to improve','PT Sukanda Djaya areas to improve','Equipment service improvements','Equipment additional comments'].map(type=>x.feedback.filter(f=>f.type===type).map(f=>f.text).join(' | ')),...(()=>{const q=matchedQualitative([x]);const unique=(k)=>[...new Set(q.map(v=>v[k]).filter(Boolean))].join(' | ');return [unique('sentiment'),unique('feedbackType'),unique('category'),unique('reason'),q.map(v=>[v.question,v.text,v.sentiment,v.feedbackType,v.category,v.reason].join(' / ')).join(' || ') ]})()]);
+// Excel in Indonesian locales often uses semicolons instead of commas for separators.
+// Excel recognizes the sep=; directive and splits each CSV field into its own column.
+const separator=';';const escapeCSV=v=>'"'+String(v??'').replace(/"/g,'""').replace(/\r?\n/g,' ')+'"';const csv='sep=;\r\n'+[heads,...rows].map(row=>row.map(escapeCSV).join(separator)).join('\r\n');
+const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='PSI_'+$('year').value+'_'+[...selectedDivisions].join('_').replace(/ /g,'_')+'_UniquePrincipals.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+// V15: bind controls after login, in the same scope as filter state and functions.
+$('divisionSelectAll').addEventListener('click',()=>setDivisionSelection(true));
+$('divisionClear').addEventListener('click',()=>setDivisionSelection(false));
+$('divisionApply').addEventListener('click',applyDivisionSelection);
+$('principalSelectAll').addEventListener('click',()=>setPrincipalSelection(true));
+$('principalClear').addEventListener('click',()=>setPrincipalSelection(false));
+$('principalApply').addEventListener('click',applyPrincipalSelection);
+$('downloadCSVButton').addEventListener('click',downloadCSV);
+$('year').addEventListener('change',()=>{if($('principalDropdown').open)$('principalDropdown').open=false;if($('divisionDropdown').open)$('divisionDropdown').open=false;selectedPrincipals=new Set();choices();render()});
+for(let i=0;i<15;i++){let e=document.createElement('i');e.textContent='CONFIDENTIAL';e.style.left=((i%3)*37-14)+'%';e.style.top=(Math.floor(i/3)*185+20)+'px';$('watermarks').append(e)}
+
+$('divisionLocked').hidden=IS_HQ;
+$('divisionDropdown').hidden=!IS_HQ;
+if(!IS_HQ)$('divisionLocked').textContent=previewRole;
+updateDivisionSummary();choices();render();
+
+}
+</script><script>
+// Static-site client-side decryption: no server authentication or revocation.
+// Encryption keeps published bundles unreadable without an access code, but
+// users with a valid code can download and copy all data in their scope.
+const ACCESS_FILES={HQ:'hq',TR:'trading',FF:'fine-food',EQ:'equipment'};
+const accessForm=document.getElementById('accessForm');
+const accessCodeInput=document.getElementById('accessCode');
+const accessError=document.getElementById('accessError');
+const accessButton=document.getElementById('accessButton');
+function decode64(s){const b=atob(s);return Uint8Array.from(b,c=>c.charCodeAt(0));}
+async function unlockFile(code, file){
+ const response=await fetch('data/'+file+'.json',{cache:'no-store'});
+ if(!response.ok)throw new Error('The data file could not be loaded. Open the published HTTPS website, or use a local web server.');
+ const packageData=await response.json();
+ const material=await crypto.subtle.importKey('raw',new TextEncoder().encode(code),'PBKDF2',false,['deriveKey']);
+ const aesKey=await crypto.subtle.deriveKey({name:'PBKDF2',salt:decode64(packageData.salt),iterations:packageData.iterations,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['decrypt']);
+ const decrypted=await crypto.subtle.decrypt({name:'AES-GCM',iv:decode64(packageData.nonce),additionalData:new TextEncoder().encode(packageData.role),tagLength:128},aesKey,decode64(packageData.ciphertext));
+ return JSON.parse(new TextDecoder().decode(decrypted));
+}
+accessForm.addEventListener('submit',async ev=>{
+ ev.preventDefault();
+ let code=accessCodeInput.value.trim();const prefix=code.split('-')[0].toUpperCase();
+ const file=ACCESS_FILES[prefix];
+ accessError.textContent='';
+ if(!file){accessError.textContent='Invalid access code.';return}
+ accessButton.disabled=true;accessButton.textContent='Unlocking…';
+ try{
+   if(!window.crypto?.subtle)throw new Error('Use HTTPS (GitHub Pages) or localhost; encryption requires a secure browser context.');
+   const bundle=await unlockFile(code,file);
+   if(bundle.role!==({HQ:'HQ',TR:'Trading',FF:'Fine Food',EQ:'Equipment'}[prefix]))throw new Error('Invalid role.');
+   document.getElementById('accessScreen').hidden=true;
+   document.getElementById('protectedDashboard').hidden=false;
+   accessCodeInput.value='';code='';
+   startDashboard(bundle.data,bundle.role);
+ }catch(error){accessError.textContent=error instanceof DOMException?'Incorrect access code.':String(error.message).includes('could not be loaded')?error.message:'Incorrect access code or the site is not accessible.';}
+ finally{accessButton.disabled=false;accessButton.textContent='Unlock dashboard';}
+});
+</script></body></html>
